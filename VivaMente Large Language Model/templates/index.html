@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tunisia Tourism Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script>
+        // Function to toggle dark mode
+        function toggleDarkMode() {
+            const body = document.body;
+            body.classList.toggle('dark-mode');
+            // Save the user's preference in localStorage
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+            } else {
+                localStorage.setItem('theme', 'light');
+            }
+        }
+
+        // On page load, set the theme based on user's preference
+        window.onload = function () {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'dark') {
+                document.body.classList.add('dark-mode');
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Tunisia Tourism Assistant</h1>
+            <button onclick="toggleDarkMode()" class="toggle-button">
+                🌓 Toggle Dark Mode
+            </button>
+        </header>
+
+        <form method="POST" class="input-form">
+            <label for="instruction">Instruction:</label>
+            <input type="text" id="instruction" name="instruction" placeholder="e.g., Give advice on Tunisia" required>
+
+            <label for="user_input">Your Question:</label>
+            <textarea id="user_input" name="user_input" rows="4"
+                placeholder="e.g., I'm traveling with my wife to Tunisia. Give me the best places to visit and best beaches."
+                required></textarea>
+
+            <div class="form-actions">
+                <input type="submit" value="Get Advice">
+                {% if history %}
+                <form method="POST" action="{{ url_for('clear_history') }}" class="clear-form">
+                    <button type="submit" class="clear-button">Clear History</button>
+                </form>
+                {% endif %}
+            </div>
+        </form>
+
+        {% if history %}
+        <div class="chat-history">
+            {% for entry in history %}
+            <div class="chat-entry">
+                <div class="user-message">
+                    <strong>You:</strong> {{ entry.user_input }}
+                </div>
+                <div class="bot-response">
+                    <strong>Assistant:</strong> {{ entry.response }}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</html>
