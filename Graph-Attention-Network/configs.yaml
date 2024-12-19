@@ -1,0 +1,16 @@
+data:
+  base_path: "./Dataset"
+
+
+training:
+  epochs: 100
+  lr: 0.01
+  weight_decay: 0.0005
+  hidden_dim: 32
+  output_dim: 3
+  train_split: 0.8
+  batch_size: 1
+
+logging:
+  log_dir: "./logs"
+  log_file: "training.log"
