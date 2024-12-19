@@ -1,3 +1,35 @@
+<div align="center">
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/yassine-ben-zekri-72aa6b199/)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/ahmed-essouaied)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/chater-marzougui-342125299/)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/aziz-khadraoui/)
+</div>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+    <h1 style="font-size:35px">Vivamente <br></h1>
+    <br>
+    <p style="font-size:20px" align="center">
+        A comprehensive bipolar disorder management app designed to improve mental health and well-being.
+    <br>
+    <br>
+    <a href="https://github.com/ahmedessouaied/TSYP12_VIVAMENTE/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/ahmedessouaied/TSYP12_VIVAMENTE/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+  <br><br>
+  <a href="https://github.com/ahmedessouaied/TSYP12_VIVAMENTE">
+    <img src="./Graph-Attention-Network/logo.png" alt="Logo" width="256px">
+  </a>
+</div>
+
+
 # Vivamente: A Multimodal Mobile Application
 
 ## Overview
@@ -88,3 +120,18 @@ This command connects directly to our model hosted on Hugging Face and enables s
 - **Enhanced Wearable Integration:** Real-time streaming and analysis of physiological data.
 - **Expanded RAG Sources:** Incorporating additional datasets for broader diagnostic capabilities.
 - **User Feedback Loop:** Continuous improvement of the LLM through user interaction data.
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/ahmedessouaied/TSYP12_VIVAMENTE.svg?style=for-the-badge
+[contributors-url]: https://github.com/ahmedessouaied/TSYP12_VIVAMENTE/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ahmedessouaied/TSYP12_VIVAMENTE.svg?style=for-the-badge
+[forks-url]: https://github.com/ahmedessouaied/TSYP12_VIVAMENTE/network/members
+[stars-shield]: https://img.shields.io/github/stars/ahmedessouaied/TSYP12_VIVAMENTE.svg?style=for-the-badge
+[stars-url]: https://github.com/ahmedessouaied/TSYP12_VIVAMENTE/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ahmedessouaied/TSYP12_VIVAMENTE.svg?style=for-the-badge
+[issues-url]: https://github.com/ahmedessouaied/TSYP12_VIVAMENTE/issues
+[license-shield]: https://img.shields.io/github/license/ahmedessouaied/TSYP12_VIVAMENTE.svg?style=for-the-badge
+[license-url]: https://github.com/ahmedessouaied/TSYP12_VIVAMENTE/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/chater-marzougui-342125299/
