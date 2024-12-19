@@ -15,11 +15,14 @@ This project provides a FastAPI service to process both video and audio files. T
 
 - Python 3.8+
 - FastAPI
+- groq
+- soundfile
+- librosa
 - Pydub
 - Pandas
 - Numpy
 - subprocess
-- External libraries: `mfcc`, `egemaps`, `boaw`, `groq_stt`, `read_csv`, `write_csv`
+- Our utils: `mfcc`, `egemaps`, `boaw`, `groq_stt`, `read_csv`, `write_csv`
 - OpenFace executable for facial feature extraction
 
 ## Installation
