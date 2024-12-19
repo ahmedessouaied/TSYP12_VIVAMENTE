@@ -57,3 +57,6 @@ The predictions from the wearable model are combined with outputs from the **Gra
 
 - Refine diagnostic accuracy.
 - Provide tailored, phase-specific support to the user.
+
+## Inference Testing
+You can test the inference of the wearable model at: [https://wearable-device.onrender.com/predict/](https://wearable-device.onrender.com/predict/). The application is hosted on **Render** for seamless accessibility.
