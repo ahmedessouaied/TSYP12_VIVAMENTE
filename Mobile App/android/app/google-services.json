@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "929651088538",
+    "project_id": "bbot-da19c",
+    "storage_bucket": "bbot-da19c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929651088538:android:5c427225f05329f8821323",
+        "android_client_info": {
+          "package_name": "com.bbot.b_bot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-_EkNrRWVlnKWxZdsUhALVOWC_VfyFzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

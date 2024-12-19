@@ -1,9 +1,44 @@
+<a name="readme-top"></a>
+<div align="center">
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/yassine-ben-zekri-72aa6b199/)
+</div>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+    <h1 style="font-size:35px">Vivamente <br></h1>
+    <br>
+    <p style="font-size:20px" align="center">
+        A comprehensive bipolar disorder management app designed to improve mental health and well-being.
+    <br>
+    <br>
+    <a href="https://github.com/ahmedessouaied/TSYP12_VIVAMENTE/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/ahmedessouaied/TSYP12_VIVAMENTE/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+  <br><br>
+  <a href="https://github.com/ahmedessouaied/TSYP12_VIVAMENTE">
+    <img src="./logo.png" alt="Logo" width="256px">
+  </a>
+</div>
+
   GNN Inference and Fusion Process
 
 GNN Inference and Fusion Process
 ================================
 
 This script demonstrates a full pipeline for leveraging a Graph Neural Network (GNN) to predict bipolar disorder phases and symptoms (YMRS, PHQ-9), and then fuse those predictions with external wearable device data. It highlights several key processes, including data preparation, graph construction, model inference, and prediction fusion.
+
+<div style="display:flex;flex-direction:column;justify-content:canter;" align="center">
+    <div>
+        <img  width="70%" src="./overview.png" alt="First Page">
+    </div>
+</div>
 
 * * *
 
@@ -115,3 +150,17 @@ Run the script as:
 
 * * *
 
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/ahmedessouaied/TSYP12_VIVAMENTE.svg?style=for-the-badge
+[contributors-url]: https://github.com/ahmedessouaied/TSYP12_VIVAMENTE/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ahmedessouaied/TSYP12_VIVAMENTE.svg?style=for-the-badge
+[forks-url]: https://github.com/ahmedessouaied/TSYP12_VIVAMENTE/network/members
+[stars-shield]: https://img.shields.io/github/stars/ahmedessouaied/TSYP12_VIVAMENTE.svg?style=for-the-badge
+[stars-url]: https://github.com/ahmedessouaied/TSYP12_VIVAMENTE/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ahmedessouaied/TSYP12_VIVAMENTE.svg?style=for-the-badge
+[issues-url]: https://github.com/ahmedessouaied/TSYP12_VIVAMENTE/issues
+[license-shield]: https://img.shields.io/github/license/ahmedessouaied/TSYP12_VIVAMENTE.svg?style=for-the-badge
+[license-url]: https://github.com/ahmedessouaied/TSYP12_VIVAMENTE/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/yassine-ben-zekri-72aa6b199/
