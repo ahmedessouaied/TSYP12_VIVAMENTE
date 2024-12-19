@@ -69,13 +69,15 @@ Vivamente is an innovative app focused on empowering individuals with bipolar di
 
 ## Features
 
+- **Chatbot Support:** Instant mental health advice and resources.
 - **Sleep Logs:** Track sleep duration, quality, and consistency.
 - **Health Overview:** Visualize mood states, activity levels, and medication adherence.
 - **Phase Forecasting:** Predict future mood states with risk alerts.
 - **Habit Recommendations:** Receive personalized tips and monitor progress.
 - **Notifications:** Stay on track with reminders for sleep, mood check-ins, and habits.
-- **Chatbot Support:** Instant mental health advice and resources.
 - **Relaxing Games:** Interactive activities to reduce stress.
+
+Everything will then be reported to our azure blob, for post prediction and processing. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
